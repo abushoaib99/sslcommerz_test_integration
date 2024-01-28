@@ -1,4 +1,4 @@
-from ssl_store import sslcz
+from ssl_store import sslcz, store_id
 
 post_body = {
     'tran_id': '014322056',
@@ -16,7 +16,7 @@ post_body = {
     'card_sub_brand': "Classic",
     'card_issuer_country': "Bangladesh",
     'card_issuer_country_code': "BD",
-    'store_id': sslcz["store_id"],
+    'store_id': store_id,
     'verify_sign': "01e8d35f8a66e170d87c176a3a3fdea2",
     'verify_key': "amount,bank_tran_id,base_fair,card_brand,card_issuer,card_issuer_country,card_issuer_country_code,card_no,card_sub_brand,card_type,currency,currency_amount,currency_rate,currency_type,error,risk_level,risk_title,status,store_amount,store_id,tran_date,tran_id,val_id,value_a,value_b,value_c,value_d",
     'verify_sign_sha2': "58bdb96c0857774d19d29aec4be12791bb054b03ab6c8319ebd01e54abfca093",

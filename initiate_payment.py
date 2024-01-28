@@ -19,9 +19,9 @@ post_body = {
     'total_amount': 100,
     'currency': "BDT",
     'tran_id': tran_id,
-    'success_url': "http://localhost:8000/payment-success/",
-    'fail_url': "http://localhost:8000/payment-fail/",
-    'cancel_url': "http://localhost:8000/payment-cancel/",
+    'success_url': "http://localhost:8000/payment-status/",
+    'fail_url': "http://localhost:8000/payment-status/",
+    'cancel_url': "http://localhost:8000/payment-status/",
     'emi_option': 0,
 
     'cus_name': "test",

@@ -3,6 +3,9 @@ from ssl_store import sslcz
 
 
 def get_random_transaction_id():
+    """
+    Generate a random number of length 9 (nine) characters
+    """
     transaction_id = ''
     for _ in range(0, 9):
         transaction_id += str(randrange(0, 9))

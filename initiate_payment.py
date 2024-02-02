@@ -36,7 +36,9 @@ post_body = {
     'num_of_item': 1,
     'product_name': "Test",
     'product_category': "Test Category",
-    'product_profile': "general"
+    'product_profile': "general",
+
+    'value_a': "{order_id: 6}"
 }
 
 response = sslcz.createSession(post_body)  # API response
